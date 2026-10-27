@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;700&display=swap");
+
+body{
+    font-family: "Noto Sans Thai", Tahoma, sans-serif;
+    color: #183345;
+    background-color: #fbfaf6;
+}
+
+h1, h2, h3{
+    color: #10283b;
+    font-weight: 700;
+}
+
+p{
+    color: #60727a;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    background-color: white;
+    border-bottom: 1px solid #dce5e1;
+}
+
+.navbar{
+    min-height: 80px;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #10283b;
+}
+
+.navbar-brand small{
+    font-size: 11px;
+}
+
+.logo{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #10283b;
+    color: #f0b65d;
+}
+
+.header .nav-link{
+    padding: 8px 12px !important;
+    border-radius: 20px;
+    color: #405866;
+}
+
+.header .nav-link:hover{
+    color: #0c7780;
+}
+
+.header .nav-link.active{
+    color: #0c7780 !important;
+    background-color: #e4f2ee;
+    font-weight: 700;
+}
+
+
+.dark{
+    background-color: #10283b;
+    color: white;
+}
+
+.dark p{
+    color: #d1dee3;
+}
+
+.dark .small-title{
+  color: #f0b65d;
+}
+
+/* หน้าหลัก */
+.hero{
+  padding: 75px 0;
+}
+
+.hero h1{
+  font-size: 4rem;
+}
+
+.hero h1 span{
+  display: block;
+  color: #f0b65d;
+}
+
+.small-title{
+    color: #0c7780;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn-main{
+  color: #10283b;
+  background-color: #f0b65d;
+  border-color: #f0b65d;
+}
+
+.btn-main:hover, .btn-main:focus-visible, .btn-main:active{
+  color: #10283b;
+  background-color: #ffd184;
+  border-color: #ffd184;
+}
+
+
+.section{
+  padding: 70px 0;
+}
+
+.light-bg{
+  background-color: #edf4f1;
+}
+
+.card{
+  border-radius: 15px;
+}
+
+.apply-banner{
+  padding: 45px 0;
+  background-color: #17394e;
+}
+
+
+.page-header{
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.page-header h1{
+    font-size: 3.3rem;
+}
+
+.header-image{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 330px;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.65;
+}
+
+
+.accordion-button:not(.collapsed){
+    color: #10283b;
+    background-color: #eaf3f0;
+}
+
+.credit-total strong{
+    color: #f0b65d;
+    font-size: 40px;
+}
+
+.course-item{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.teacher-photo{
+    height: 320px;
+    object-position: center 20%;
+}
+
+.step > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #10283b;
+    color: #f0b65d;
+}
+
+
+.footer{
+  background-color: #0c2334;
+  color: white;
+}
+
+.footer .footer-logo{
+    color: #f0b65d;
+}
+
+.footer p{
+  color: #aebfc7;
+}
+
+.footer a{
+  color: #aebfc7;
+}
+
+.footer a:hover{
+    color: #f0b65d;
+}
+
+/* มือถือ */
+@media (max-width: 767px){
+    .hero h1{
+        font-size: 2.7rem;
+    }
+
+    .section{
+        padding: 50px 0;
+    }
+
+    .page-header h1{
+        font-size: 2.4rem;
+    }
+
+    .header-image{
+        opacity: 0.2;
+    }
+
+    .course-item{
+        width: 100%;
+    }
+
+}

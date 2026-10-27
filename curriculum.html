@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แผนการเรียน | CS PATH</title>
+  <link rel="icon" href="image/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="header sticky-top">
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+      <span class="logo">&lt;/&gt;</span>
+      <span><strong class="d-block">CS PATH</strong><small class="d-block">วิทยาการคอมพิวเตอร์</small></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="เปิดเมนู">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <div class="navbar-nav ms-auto align-items-center">
+            <a class="nav-link" href="index.html">หน้าหลัก</a>
+            <a class="nav-link" href="about.html">เกี่ยวกับหลักสูตร</a>
+            <a class="nav-link active" href="curriculum.html" aria-current="page">แผนการเรียน</a>
+            <a class="nav-link" href="lecturers.html">คณาจารย์</a>
+            <a class="nav-link" href="admission.html">การสมัครเรียน</a>
+            <a class="nav-link" href="contact.html">ติดต่อเรา</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="page-header dark">
+    <div class="container position-relative z-1">
+        <p class="small-title">CURRICULUM</p>
+        <h1 class="text-white">แผนการเรียน</h1>
+        <p>รายวิชาตลอด 4 ปี พร้อมเครื่องคำนวณหน่วยกิต</p>
+    </div>
+    <img class="header-image" src="image/section-orbit.png" alt="">
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>รายวิชาในแต่ละปี</h2>
+    <!-- Accordion: https://getbootstrap.com/docs/5.3/components/accordion/#example -->
+    <div class="accordion mt-4" id="studyPlan">
+      <article class="accordion-item mb-2">
+        <h3 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#year1" aria-expanded="true" aria-controls="year1">
+            ปีที่ 1: วางพื้นฐาน
+          </button>
+        </h3>
+        <div class="accordion-collapse collapse show" id="year1" data-bs-parent="#studyPlan">
+         <div class="accordion-body">
+          <ul class="mb-0">
+           <li><strong>พื้นฐานการเขียนโปรแกรม</strong> ฝึกเขียนคำสั่ง เงื่อนไข การวนซ้ำ และฟังก์ชัน</li>
+           <li><strong>คณิตศาสตร์สำหรับคอมพิวเตอร์</strong> ตรรกศาสตร์ เซต และคณิตศาสตร์ไม่ต่อเนื่อง</li>
+           <li><strong>แนวคิดเชิงคำนวณ</strong> การแยกปัญหาและออกแบบขั้นตอนวิธี</li>
+          </ul>
+         </div>
+        </div>
+      </article>
+      <article class="accordion-item mb-2">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year2" aria-expanded="false" aria-controls="year2">
+            ปีที่ 2: เข้าใจระบบ
+          </button>
+        </h3>
+        <div class="accordion-collapse collapse" id="year2" data-bs-parent="#studyPlan">
+         <div class="accordion-body">
+          <ul class="mb-0">
+           <li><strong>โครงสร้างข้อมูลและอัลกอริทึม</strong> เลือกวิธีจัดเก็บและค้นหาข้อมูลให้เหมาะกับงาน</li>
+           <li><strong>ระบบฐานข้อมูล</strong> ออกแบบตาราง เขียนคำสั่ง SQL และเชื่อมต่อกับโปรแกรม</li>
+           <li><strong>การพัฒนาเว็บไซต์</strong> สร้างหน้าเว็บที่รองรับทั้งคอมพิวเตอร์และโทรศัพท์</li>
+          </ul>
+         </div>
+        </div>
+      </article>
+      <article class="accordion-item mb-2">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year3" aria-expanded="false" aria-controls="year3">
+            ปีที่ 3: ลงมือสร้าง
+          </button>
+        </h3>
+        <div class="accordion-collapse collapse" id="year3" data-bs-parent="#studyPlan">
+         <div class="accordion-body">
+          <ul class="mb-0">
+           <li><strong>วิศวกรรมซอฟต์แวร์</strong> เก็บความต้องการ ออกแบบ ทดสอบ และจัดการโครงการ</li>
+           <li><strong>เครือข่ายคอมพิวเตอร์</strong> การสื่อสารข้อมูล อุปกรณ์เครือข่าย และความปลอดภัย</li>
+           <li><strong>ปัญญาประดิษฐ์</strong> เรียนรู้แนวคิดการจำแนกข้อมูลและการสร้างแบบจำลอง</li>
+          </ul>
+         </div>
+        </div>
+      </article>
+      <article class="accordion-item mb-2">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year4" aria-expanded="false" aria-controls="year4">
+            ปีที่ 4: ทำโครงงาน
+          </button>
+        </h3>
+        <div class="accordion-collapse collapse" id="year4" data-bs-parent="#studyPlan">
+         <div class="accordion-body">
+          <ul class="mb-0">
+           <li><strong>โครงงานวิทยาการคอมพิวเตอร์</strong> พัฒนาผลงานตั้งแต่ข้อเสนอโครงการจนถึงนำเสนอ</li>
+           <li><strong>สัมมนาทางคอมพิวเตอร์</strong> ศึกษาเทคโนโลยีใหม่และฝึกสรุปบทความ</li>
+           <li><strong>เตรียมพร้อมสู่วิชาชีพ</strong> ทำเรซูเม่ แฟ้มผลงาน และฝึกสัมภาษณ์งาน</li>
+          </ul>
+         </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section border-top">
+  <div class="container">
+    <p class="small-title">CREDIT STRUCTURE</p>
+    <h2>โครงสร้างหลักสูตร 124 หน่วยกิต</h2>
+    <div class="row g-4 mt-2">
+      <article class="col-md-4">
+        <div class="card p-4 shadow-sm"><h3>30 หน่วยกิต</h3><p>หมวดศึกษาทั่วไป เช่น ภาษา การสื่อสาร และการเป็นผู้ประกอบการ</p></div>
+      </article>
+      <article class="col-md-4">
+        <div class="card p-4 shadow-sm"><h3>88 หน่วยกิต</h3><p>วิชาเฉพาะด้านคอมพิวเตอร์ ทั้งวิชาพื้นฐาน วิชาบังคับ และวิชาเลือก</p></div>
+      </article>
+      <article class="col-md-4">
+        <div class="card p-4 shadow-sm"><h3>6 หน่วยกิต</h3><p>วิชาเลือกเสรี นักศึกษาสามารถเลือกเรียนตามความสนใจจากสาขาอื่นได้</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section light-bg">
+  <div class="container">
+    <h2>คำนวณหน่วยกิต</h2>
+    <p>เลือกวิชาที่สนใจเพื่อดูผลรวม</p>
+
+    <div class="row g-4">
+      <article class="col-lg-4">
+        <div class="credit-total dark p-4 rounded-3 h-100">
+          <span class="d-block">หน่วยกิตที่เลือก</span>
+          <strong id="creditCount">0</strong>
+          <span class="d-block" id="courseCount">0 รายวิชา</span>
+          <button class="btn btn-outline-light mt-3" id="resetCredits" type="button">ล้างการเลือก</button>
+        </div>
+      </article>
+      <article class="col-lg-8">
+        <div class="d-flex flex-wrap align-content-center p-3 rounded-3 bg-white h-100">
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="3"><span class="flex-grow-1">การเขียนโปรแกรม</span><b>3</b></label>
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="3"><span class="flex-grow-1">ระบบฐานข้อมูล</span><b>3</b></label>
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="3"><span class="flex-grow-1">การพัฒนาเว็บไซต์</span><b>3</b></label>
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="3"><span class="flex-grow-1">วิศวกรรมซอฟต์แวร์</span><b>3</b></label>
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="3"><span class="flex-grow-1">ปัญญาประดิษฐ์</span><b>3</b></label>
+          <label class="course-item align-items-center"><input class="course-credit" name="course" type="checkbox" value="6"><span class="flex-grow-1">โครงงาน</span><b>6</b></label>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer: https://getbootstrap.com/docs/5.3/examples/footers/ -->
+<footer class="footer dark py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+      <section class="col mb-3">
+        <a class="footer-logo d-inline-flex align-items-center mb-3" href="index.html">&lt;/&gt; CS PATH</a>
+        <h3 class="text-white fs-5">หลักสูตรวิทยาการคอมพิวเตอร์</h3>
+        <p>คณะวิทยาศาสตร์และเทคโนโลยี<br>มหาวิทยาลัยราชภัฏ</p>
+        <p class="mb-0">เรียนรู้การเขียนโปรแกรม ข้อมูล เครือข่าย<br>และการพัฒนาซอฟต์แวร์</p>
+      </section>
+
+      <nav class="col mb-3" aria-label="เมนูส่วนท้าย">
+        <h3 class="text-white fs-5 mb-3">เมนูเว็บไซต์</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="index.html">หน้าหลัก</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="about.html">เกี่ยวกับหลักสูตร</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="curriculum.html">แผนการเรียน</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="lecturers.html">คณาจารย์</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="admission.html">การสมัครเรียน</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0" href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+
+      <section class="col mb-3">
+        <h3 class="text-white fs-5 mb-3">ติดต่อหลักสูตร</h3>
+        <p>อาคารเทคโนโลยี ชั้น 3<br>99 ถนนราชภัฏ ตำบลบ้านเหนือ<br>อำเภอเมือง กาญจนบุรี 71000</p>
+        <a class="d-block mb-2" href="tel:034555142">โทร. 034-555-142 ต่อ 301</a>
+        <a class="d-block mb-2" href="mailto:cs@rajabhat.example">cs@rajabhat.example</a>
+        <p class="mt-2 mb-0">จันทร์–ศุกร์ 08.30–16.30 น.</p>
+      </section>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between gap-2 pt-4 border-top border-light border-opacity-25">
+      <span>© 2026 มหาวิทยาลัยราชภัฏ</span>
+      <span>Computer Science Program</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
